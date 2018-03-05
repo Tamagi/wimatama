@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('font/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('font/Gotham-Book.woff2') format('woff2'),
+        url('font/Gotham-Book.ttf')  format('truetype'),
+        url('font/Gotham-Book.woff') format('woff'),
+        url('font/Gotham-Book.svg#svgFontName') format('svg');
+}
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url('font/Gotham-Black.eot');
+  src: url('font/Gotham-Black.woff2') format('woff2'),
+       url('font/Gotham-Black.woff') format('woff'),
+       url('font/Gotham-Black.ttf') format('truetype'),
+       url('font/Gotham-Black.svg#Gotham-Black') format('svg'),
+       url('font/Gotham-Black.eot?#iefix') format('embedded-opentype');
+}
+
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('font/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+      url('font/Gotham-Bold.woff') format('woff'),
+      url('font/Gotham-Bold.woff2') format('woff2'),
+      url('font/Gotham-Bold.ttf')  format('truetype'),
+      url('font/Gotham-Bold.svg#svgFontName') format('svg');
+}
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+  font-family: 'Gotham-Black';
+}
+p{
+  margin: 0;
+}
+/* fixed-right */
+.fixed-right{
+  z-index: 10000;
+}
+.scrolldown{
+  position: absolute;
+  bottom: 110px;
+  right: -80px;
+  transform: rotate(90deg);
+}
+.scrolldown .text{
+  font-family: 'Roboto';
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  float: left;
+}
+.scrolldown .line{
+  width: 115px;
+  height: 1px;
+  background-color: black;
+  float: left;
+  margin: 7px 0 0 20px;
+}
+.minilogo{
+  position: absolute;
+  right: 0;
+  top: 40px;
+}
+.minilogo img{
+  height: 66px;
+}
+/* section */
+.section{
+  overflow: hidden;
+}
+.section-1 .title{
+  font-size: 60px;
+  font-weight: 900;
+  line-height: 60px;
+  color: black;
+}
+.section-1 .navigation{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding-top: 80px;
+}
+.section-1 .navigation .row:nth-of-type(1) img{
+  height: 15px;
+}
+.section-1 .links a{
+  font-family: 'Roboto';
+  font-size: 10px;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.section-2 .headtext , .section-3 .headtext, .section-4 .headtext, .section-5 .headtext, .section-6 .headtext, .section-7 .headtext{
+  font-family: 'Gotham-Book';
+  font-size: 18px;
+  letter-spacing: 10px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+.section-2 .title, .section-3 .title, .section-4 .title, .section-5 .title, .section-6 .title, .section-7 .title{
+height: 60px;
+margin-bottom: 30px;
+}
+.section-3 .title{
+  height: 40px;
+}
+.section-4 .title{
+  height: 56px;
+}
+.section-5 .title{
+  height: 57px;
+}
+.section-6 .title{
+  height: 71px;
+}
+.section-7 .title{
+  height: 32px;
+}
+.section-2 .subtitle, .section-3 .subtitle, .section-4 .subtitle, .section-5 .subtitle, .section-6 .subtitle, .section-7 .subtitle{
+  font-family: 'Gotham-Bold';
+  font-size: 24px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.section-2 .text, .section-3 .text, .section-4 .text, .section-5 .text, .section-6 .text, .section-7 .text{
+  font-family: 'Gotham-Book';
+  font-size: 12px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
+
+.section-2 .minitext, .section-3 .minitext, .section-4 .minitext, .section-5 .minitext, .section-6 .minitext, .section-7 .minitext{
+  font-family: 'Gotham-Book';
+  font-size: 11px;
+  letter-spacing: 5px;
+  line-height: 21px;
+}
+
+.section-3{
+  background: url('img/img-wimacon.png');
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
